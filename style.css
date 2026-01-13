@@ -1,0 +1,105 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.border-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card {
+    width: 150px;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+}
+
+.border-1 {
+    border: 5px solid red;
+}
+
+.border-2 {
+    border-top: 5px solid red;
+    border-right: 5px solid blue;
+    border-bottom: 5px solid green;
+    border-left: 5px solid orange;
+}
+
+.border-3 {
+    border: 4px dashed purple;
+}
+
+.border-4 {
+    border: 6px double black;
+}
+
+.border-5 {
+    border: 4px solid blue;
+    border-radius: 15px;
+}
+
+.border-6 {
+    border: 4px solid red;
+    outline: 4px solid blue;
+    outline-offset: 5px;
+    margin: 15px; 
+}
+
+.box-model-demo {
+    width: 320px;
+    padding: 20px;
+    border: 10px solid black;
+    margin: 30px;
+    background-color: lightgreen; 
+    box-sizing: border-box;
+}
+
+.content-area {
+    background-color: white; 
+    padding: 5px;
+}
+
+.comparison-section {
+    display: flex;
+}
+
+.box {
+    width: 200px;
+    border: 2px solid black;
+    background-color: lightyellow;
+}
+
+.box-a {
+    padding: 40px; 
+}
+
+.box-b {
+    margin: 40px; 
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 15px;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    background-color: #fafafa;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
